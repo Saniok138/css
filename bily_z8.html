@@ -1,7 +1,16 @@
-Wewnętrzny arkusz stylów:
-Wstawia się zawsze w części nagłówkowej dokumentu (pomiędzy znacznikami <head> a </head>). Można go zastosować, gdy elementy które pragniemy poddać formatowaniu, występują wielokrotnie na stronie i wszystkim chcemy nadać takie same atrybuty (inne niż domyślne).
-Wewnętrzny arkusz stylów składnia teoretyczna:<br>
-<textarea cols=80 rows=13>
+<h1><font face="Arial"> Wewnętrzny arkusz stylów:</h1>
+<OL TYPE=1 START=1>
+<LI>gdzie jest wstawiany,
+<LI>składnia teoretyczna (w ramce, konieczne wcięcia),
+<LI>jakie mogą być selektory,
+<LI>jakie mogą być cechy i wartości<OL>
+<br>
+<OL TYPE=1 START=1>
+<LI>Wstawia się zawsze w części nagłówkowej dokumentu (pomiędzy znacznikami &#60;head&#62; a 
+&#60;/head&#62;). Można go zastosować, gdy elementy które pragniemy poddać formatowaniu, 
+występują wielokrotnie na stronie i wszystkim chcemy nadać takie same atrybuty (inne niż 
+domyślne). 
+<br><br><LI><textarea cols=80 rows=13>
 <head>
 (...)
 <style type="text/css">
@@ -13,9 +22,12 @@ selektor2 { cecha: wartość; cecha2: wartość2... }
 </style>
 (...)
 </head>
-</textarea><br>
-gdzie: w sposób wyróżniony (pogrubieniem) zaznaczono elementy składowe wewnętrznego arkusza stylów. Natomiast w miejsce kropek (...) można wpisać dalsze polecenia.
-Selektorem może być praktycznie dowolny znacznik, np. p (akapit), h1 (tytuł), td (komórka tabeli) i inne. To właśnie elementom, które znajdują się w kodzie źródłowym, pomiędzy tymi znacznikami, nadajemy atrybuty formatowania opisane w arkuszu.
-Jako "cecha" (w deklaracji stylu - powyżej) należy wpisać o jakie konkretnie atrybuty formatowania nam chodzi (opisane w kolejnych rozdziałach).
+</textarea>
+<LI>Selektorem może być praktycznie dowolny znacznik, np. p (akapit), h1 (tytuł), td (komórka 
+tabeli) i inne. To właśnie elementom, które znajdują się w kodzie źródłowym, pomiędzy tymi 
+znacznikami, nadajemy atrybuty formatowania opisane w arkuszu.
+<LI>Jako "cecha" (w deklaracji stylu - powyżej) należy wpisać o jakie konkretnie atrybuty 
+formatowania nam chodzi (opisane w kolejnych rozdziałach).
 Natomiast jako wyraz "wartość" wpisujemy dokładną wartość atrybutu.
-Zwróć uwagę, że jednemu selektorowi możemy nadać kilka atrybutów (cech). Są one wtedy rozdzielone średnikami.
+Zwróć uwagę, że jednemu selektorowi możemy nadać kilka atrybutów (cech). Są one wtedy 
+rozdzielone średnikami
