@@ -3,51 +3,35 @@
 <OL TYPE=1 START=1>
 <LI> Na co pozwala styl lokalny, który element będzie formatowany z użyciem stylu 
 lokalnego,
-<br><LI> Składnia teoretyczna ( z użyciem ramki otaczającej &xrarr; może być tabela o jednej 
+<br><LI> Składnia teoretyczna ( z użyciem ramki otaczającej -> może być tabela o jednej 
 komórce, zastosuj „znaki specjalne” do napisania definicji stylu lokalnego tak aby 
-instrukcja CSS nie wykonywała się a tylko wyświetlała wewnątrz ramki [&nbsp;
-spacja niełamana]&xlarr; przykład „znaku specjalnego”),
+instrukcja CSS nie wykonywała się a tylko wyświetlała wewnątrz ramki [&nbsр;
+spacja niełamana]<- przykład „znaku specjalnego”),
 <br><LI> Co może być selektorem,
 <br><LI> Co wipisujemy jako "cechę". Jakie jest znaczenie średników,
 <br><LI> Co wipisujemy jako "wartość" (w deklaracji stylu).
 </OL>
 <br><br>
 <OL TYPE=1 START=1>
-<LI> <b>Styl lokalny </b>pozwala na nadanie formatowania konkretnemu pojedynczemu elementowi 
+<LI> Styl lokalny pozwala na nadanie formatowania konkretnemu pojedynczemu elementowi 
 strony. Jest wstawiany w tej samej linii, w której znajduje się element formatowany. 
 O tym, który to będzie element, decyduje słowo kluczowe "selektor".
-<LI> </table>
-<p align="left"><font size="5"> 
-<table border="1" bordercolor="black" align="left" width="80%"> 
-<tr>
-<td colspan="4" >
-<p> &#60;selektor style="cecha1: wartość1; cecha2: wartość2..."&#62;
-...
-&#60;/selektor&#62;</p>
-</td>
-</tr>
-</table><br>
-<p><font size="3">lub inaczej</p> </font>
-</table>
-<table border="1" bordercolor="black" align="left" width="80%"> 
-<tr>
-<td colspan="4" >
-<p> &#60;selektor style="nasze style""&#62;
-treść bloku
-&#60;/selektor&#62;</p>
-</td>
-</tr>
-</table>
-<br><br>
-<LI> <font size="3"><b>Selektorem</b> może być praktycznie dowolny znacznik, np. p (akapit), h1 (nagłówek), td 
-(komórka tabeli) i inne. To właśnie elementom znajdującym się pomiędzy tymi znacznikami, 
+<LI>
+<textarea>
+<selektor style="cecha1: wartość1; cecha2: wartość2...">...</selektor>
+</textarea>
+<p>lub inaczej</p>
+<textarea>
+  <selektor style="nasze style">treść bloku</selektor>
+</textarea>
+<LI>Selektorem może być praktycznie dowolny znacznik. 
+To właśnie elementom znajdującym się pomiędzy tymi znacznikami, 
 nadajemy atrybuty formatowania.
-<br><br><LI> Jako <b>"cecha"</b> czy inaczej własność bądź właściwość (ang. "property") należy wpisać o jakie 
-konkretnie atrybuty formatowania nam chodzi (np. kolor tekstu - color). 
-Jednemu selektorowi możemy nadać kilka atrybutów (cech). Są one wtedy rozdzielone 
+<br><br><LI> Jako cecha czy inaczej własność bądź właściwość należy wpisać o jakie 
+konkretnie atrybuty formatowania nam chodzi. 
+Jednemu selektorowi możemy nadać kilka atrybutów. Są one wtedy rozdzielone 
 średnikami.
-<br><br><LI> Jako wyraz <b>"wartość"</b> (w deklaracji stylu) wpisujemy dokładną wartość atrybutu (np. dla 
-koloru tekstu będzie to: red, blue czy też #31F4A5 itd.). Wartość zależy ściśle od cechy, po 
+<br><br><LI> Jako wyraz wartość wpisujemy dokładną wartość atrybutu. Wartość zależy ściśle od cechy, po 
 której stoi w deklaracji. 
 </body>
 </html>
