@@ -1,0 +1,26 @@
+p#pogrubienie_bilyi{
+    font-size: 30px;
+    color: #9160ce;
+}
+p#pochylona_bilyi{
+    font-size: 35pt;
+    color: #f5c46a;
+}
+p#index_gorny_bilyi{
+    font-size: 1cm;
+    color: #a5921a;
+}
+p#index_dolny_bilyi{
+    font-size: 1.5cm;
+    color: rgb(25%, 96%, 89%);
+}
+p#mono_bilyi{
+    font-size: 40px;
+    color: #25e26a;
+}
+p#powiekszenie_bilyi{
+    color: #5f429c;
+}
+p#pomniejszenie_bilyi{
+    color: rgb(76%, 65%, 22%);
+}
