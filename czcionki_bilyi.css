@@ -1,0 +1,54 @@
+p#akapit1_bilyi{
+    text-align: center;
+    font-family: serif;
+    line-height: 1cm;
+    word-spacing: 12px;
+    letter-spacing: 18mm;
+    color: #ffc0cb;
+    text-indent: 30mm;
+}
+p#akapit2_bilyi{
+    font-family: sans-serif;
+    text-align: right;
+    line-height: 1cm;
+    word-spacing: 12px;
+    letter-spacing: 2ex;
+    color: #ffff00;
+    text-indent: 1cm;
+}
+
+#z1_bilyi{
+    font-size: x-small;
+    font-weight: 200;
+    text-decoration: overline;
+    font-variant:small-caps;
+}
+#z2_bilyi{
+    font-size: x-large;
+    font-weight: 400;
+    font-style: italic;
+}
+#z3_bilyi{
+    font-size: xx-large;
+    font-weight: 900;
+    text-transform: lowercase;
+}
+
+
+#z4_bilyi{
+    font-size: 56px;
+    font-weight: 300;
+    font-variant:small-caps;
+    text-decoration: line-through;
+}
+#z5_bilyi{
+    font-size: 4in;
+    font-weight: 600;
+    font-style: oblique;
+    text-transform: capitalize;
+}
+#z6_bilyi{
+    font-size: 2em;
+    font-weight: 800;
+    font-variant:small-caps;
+}

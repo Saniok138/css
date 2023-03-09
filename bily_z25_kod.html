@@ -1,0 +1,143 @@
+<html><body><textarea cols="100%" rows="100%">
+HTML
+<html>
+
+<head>
+   <title>Właściwości czcionek-Bilyi</title>
+   <style>
+      @import url("czcionki_bilyi.css");
+   </style>
+</head>
+
+<body>
+   <p style="color:#ff0000;font-size:1cm;">Oleksandr Bilyi klasa 1P, układ 3</p>
+   <p style="color:#0000ff;">Akapit 1 - centrowany</p>
+   <pre>
+rodzina czcionki 1 (patrz tabela Sposób kodowania rodziny czcionek") czyli--> serif
+kolory tekstu (patrz pierwsza tabela kolorów" wg numeru w dzienniku) czyli--> Odcienie koloru różowego
+dekoracja tekstu 3 (patrz tabela,,Sposób kodowania dekoracji tekstu") jedno zdanie w tekście czyli--> Nadkreślić
+styl czcionek 2 (patrz tabela „Sposób kodowania stylu tekstu") jedno zdanie w tekście czyli--> italic
+wariant czcionki--> kapitaliki, jedno zdanie w tekście
+
+grubości czcionek:
+<ul><li>jedno zdanie w tekście 200 
+<li>jedno zdanie w tekście 400
+<li>jedno zdanie w tekście 900
+</ul>
+rozmiary czcionek:
+<ul><li>jedno zdanie w tekście 2 czyli -->x-small
+<li>jedno zdanie w tekście 6 czyli -->x-large  
+<li>jedno zdanie w tekście 7 czyli -->xx-large
+patrz tabele,,Sposób kodowania wielkości czcionek"
+</ul>transformacja tekstu jedno zdanie w tekście ma być wyświetlane małymi literami
+wcięcia tekstu: 30mm
+odstępy między: wierszami 1cm
+odstępy między: wyrazami 12px
+odstępy między: literami 18mm
+</pre>
+   <p id="akapit1_bilyi">
+      <fo id="z1_bilyi">Informatyka (niem. Informatik, ang. computer science, computing, computer engineering, IT, ICT) – nauka ścisła
+      oraz
+      techniczna zajmująca się przetwarzaniem informacji, w tym również technologiami przetwarzania informacji oraz
+      technologiami
+      wytwarzania systemów przetwarzających informacje.</fo><fo id="z2_bilyi"> Zajmuje się rozwiązywaniem problemów obliczeniowych, opisem
+      procesów
+      algorytmicznych oraz tworzeniem programów komputerowych i częściowo sprzętu komputerowego (z wyłączeniem zagadnień
+      materialnych
+      i energetycznych).</fo><fo id="z3_bilyi"> Informatyka początkowo stanowiła część matematyki, z czasem wyodrębniła się do oddzielnej
+      dyscypliny.</fo>
+   </p>
+   <pre>
+      rodzina czcionki 2 (patrz tabela Sposób kodowania rodziny czcionek") czyli--> sans-serif
+      kolory tekstu (patrz pierwsza tabela kolorów" wg numeru w dzienniku) czyli--> Odcienie koloru żółtego
+      dekoracja tekstu 2 (patrz tabela,,Sposób kodowania dekoracji tekstu") jedno zdanie w tekście czyli--> Podreślić
+      styl czcionek 3 (patrz tabela „Sposób kodowania stylu tekstu") jedno zdanie w tekście czyli--> oblique
+      wariant czcionki--> kapitaliki, jedno zdanie w tekście
+      
+      grubości czcionek:
+      <ul><li>jedno zdanie w tekście 300 
+      <li>jedno zdanie w tekście 600
+      <li>jedno zdanie w tekście 800
+      </ul>
+      rozmiary czcionek:
+      <ul><li>jedno zdanie w tekście -->wybierz i wpisz sam ?? px
+      <li>jedno zdanie w tekście -->wybierz i wpisz sam ?? in  
+      <li>jedno zdanie w tekście -->wybierz i wpisz sam ?? em
+      </ul>transformacja tekstu jedno zdanie w tekście ma być wyświetlane każde nowe słowo zaczyna się dużą literą
+      wcięcia tekstu: 1cm
+      odstępy między: wierszami 1cm
+      odstępy między: wyrazami 12px
+      odstępy między: literami 2ex
+      </pre>
+   <p id="akapit2_bilyi">
+      <fo id="z4_bilyi">
+      Termin informatics nie mógł zostać wprowadzony do słownictwa amerykańskiego z uwagi na problemy prawne – istniało
+      tam przedsiębiorstwo
+      o nazwie Informatics Inc(ang.), co zablokowało chęć zmiany nazwy ACM na Society for Informatics.</fo><fo id="z5_bilyi"> Wówczas popularny
+      był już tam termin
+      computer science – dosłownie: „nauka o komputerze” – co może być mylące, stąd spotykał się często z krytyką
+      środowisk akademickich.
+      Proponowano wiele alternatywnych nazw, m.in. Computer Studies, Computics, Computing Science, Computation Science,
+      Information engineering,
+      Information Technology.</fo><fo id="z6_bilyi"> Association for Computing Machinery będące najważniejszą organizacją branżową przyjął
+      termin computing na nazwę ogólnej dyscypliny.</fo>
+   </p>
+</body>
+
+</html>
+CSS
+p#akapit1_bilyi{
+    text-align: center;
+    font-family: serif;
+    line-height: 1cm;
+    word-spacing: 12px;
+    letter-spacing: 18mm;
+    color: #ffc0cb;
+    text-indent: 30mm;
+}
+p#akapit2_bilyi{
+    font-family: sans-serif;
+    text-align: right;
+    line-height: 1cm;
+    word-spacing: 12px;
+    letter-spacing: 2ex;
+    color: #ffff00;
+    text-indent: 1cm;
+}
+
+#z1_bilyi{
+    font-size: x-small;
+    font-weight: 200;
+    text-decoration: overline;
+    font-variant:small-caps;
+}
+#z2_bilyi{
+    font-size: x-large;
+    font-weight: 400;
+    font-style: italic;
+}
+#z3_bilyi{
+    font-size: xx-large;
+    font-weight: 900;
+    text-transform: lowercase;
+}
+
+
+#z4_bilyi{
+    font-size: 56px;
+    font-weight: 300;
+    font-variant:small-caps;
+    text-decoration: line-through;
+}
+#z5_bilyi{
+    font-size: 4in;
+    font-weight: 600;
+    font-style: oblique;
+    text-transform: capitalize;
+}
+#z6_bilyi{
+    font-size: 2em;
+    font-weight: 800;
+    font-variant:small-caps;
+}
+</textarea></body></html>
