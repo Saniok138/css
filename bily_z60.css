@@ -1,0 +1,28 @@
+#blok1_bilyi{
+    width:602px;
+    background-color: green;
+}
+#blok2_bilyi{
+    width:602px;
+    background-color: green;
+}
+#blok3_bilyi{
+    width:602px;
+    background-color: green;
+}
+#blok1_bilyi:hover{
+    background-color:blue;
+    font-size: 20mm;
+}
+#blok2_bilyi:hover{
+    background-color:yellow;
+    font-size: 20mm;
+}
+#blok3_bilyi:hover{
+    background-color:gold;
+    font-size: 20mm;
+}
+/*	
+    hover; - Wygląd tekstu przy najechaniu
+    Oleksandr Bilyi
+*/
